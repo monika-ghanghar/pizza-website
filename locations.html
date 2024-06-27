@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>locations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header  -->
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="public/logo.jpg" alt="Pizza Hut Logo"></a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="order.html">Order Online</a></li>
+                <li><a href="locations.html">Locations</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="cta-buttons">
+            <a href="order.html" class="cta order-now">Order Now</a>
+            <a href="locations.html" class="cta find-location">Find a Location</a>
+        </div>
+    </header>
+
+   <!-- map integration  -->
+   <main>
+    <h1>Our Locations</h1>
+    <!-- Map container -->
+    <div id="map"></div>
+</main>
+
+   <!-- locations details  -->
+   <div class="search-container">
+    <input type="text" id="search-input" placeholder="Enter your location">
+    <button id="search-btn">Search</button>
+</div>
+
+<div id="location-cards"></div> 
+
+    <!-- footer  -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>About Pizza Hut</h3>
+                <p>Pizza Hut has been serving delicious pizzas since 1958. We believe in quality, taste, and customer satisfaction. Join us for a slice of happiness!</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="index.html">Special Offers</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#"><img src="public/Facebook-Icon.png" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="public/twitter-icone.png" alt="Twitter"></a></li>
+                    <li><a href="#"><img src="public/instragram.png" alt="Instagram"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Pizza Hut. All rights reserved.</p>
+        </div>
+    </footer>
+     
+    <script src="script.js"></script>
+</body>
+</html>
